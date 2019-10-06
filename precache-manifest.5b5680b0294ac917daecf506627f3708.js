@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da254a04673feaec1c423314f7c6779d",
+    "revision": "c8d72a3ef225d45d377ab2a62f53ffde",
     "url": "/products-cart/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/products-cart/static/css/2.0e2c2b5a.chunk.css"
   },
   {
-    "revision": "c9adcf0bf5c9fa35a7f5",
+    "revision": "3c1188467b3c0c585ce4",
     "url": "/products-cart/static/css/main.871f44c1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/products-cart/static/js/2.b07266de.chunk.js"
   },
   {
-    "revision": "c9adcf0bf5c9fa35a7f5",
-    "url": "/products-cart/static/js/main.d31389a5.chunk.js"
+    "revision": "3c1188467b3c0c585ce4",
+    "url": "/products-cart/static/js/main.8f593ba3.chunk.js"
   },
   {
     "revision": "e613c3cc04e591084621",
