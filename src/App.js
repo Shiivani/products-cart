@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <ProductProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/products-cart">
           <div className="app-container">    
             <Main/>
           </div>

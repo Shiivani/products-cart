@@ -438,6 +438,18 @@ body {
  .list-content{
    padding-bottom:30px;
  }
+ .default-container{
+   padding-top: 15%;
+   @include set-wrapper(800px);
+   h1,h2,h3{
+     text-align:center;
+   }
+   h3{
+     .url-class{
+      color:red;
+     }
+   }
+ }
 }
 #root {
   display: flex;

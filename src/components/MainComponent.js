@@ -13,9 +13,9 @@ export default class Main extends Component {
               <>
                 <Header />
                 <Switch>
-                    <Route exact path="/products-cart/" component={Home} />
+                    <Route exact path="/" component={Home} />
                     <Route path="/cart" component={Cart} />
-                    <Redirect to="/products-cart/" />
+                    <Route component={Default} />
                 </Switch>
               </>  
             </div>
