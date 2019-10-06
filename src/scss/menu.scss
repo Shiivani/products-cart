@@ -1,0 +1,158 @@
+
+@mixin breakpoint($screen-size){
+    @media (min-width: $screen-size) {
+      @content;
+    }
+}
+//Variables
+$screen-md: 992px;
+$blue: #077dc3;
+$purple: #5c3b8b;
+$white: #fff;
+$black: #000;
+$grey:#333;
+
+/* header */
+
+.header {
+    background-color: $blue;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    max-width:1366px;
+    margin:0 auto;
+    z-index: 10000;
+    a {
+        color: $grey;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+        li {
+            font-size: 23px;
+            line-height: 33px;
+            a {
+                display: block;
+                padding: 20px 20px;
+                text-decoration: none;
+                color:$white;
+                @include breakpoint($screen-md) {
+                    padding: 20px 30px;
+                }
+                button{
+                    background:$blue;
+                    color:$white;
+                    font-size: 23px;
+                    border:none;
+                    .fa{
+                        padding-right:8px;
+                    }
+                }
+                
+            }
+            @include breakpoint($screen-md) {
+                float: left;
+            }
+        }
+    }
+    .menu-btn {
+        &:hover{
+            background-color: #f4f4f4;
+        }
+    }
+    .logo {
+        display: block;
+        float: left;
+        font-size: 2em;
+        padding: 10px 20px;
+        text-decoration: none;
+        img {
+            max-width: 55px;
+        }
+    }
+
+    /* menu */
+
+    .menu {
+        clear: both;
+        max-height: 0;
+        transition: max-height .2s ease-out;
+
+        @include breakpoint($screen-md) {
+            clear: none;
+            float: right;
+            max-height: none;
+        }
+       
+    }
+
+    /* menu icon */
+
+    .menu-icon {
+        cursor: pointer;
+        float: right;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+        @include breakpoint($screen-md) {
+            display: none;
+        }
+        .nav-icon {
+            background: #333;
+            display: block;
+            height: 2px;
+            position: relative;
+            transition: background .2s ease-out;
+            width: 18px;
+            &:before{
+                top: 5px;
+                background: #333;
+                content: '';
+                display: block;
+                height: 100%;
+                position: absolute;
+                transition: all .2s ease-out;
+                width: 100%; 
+            }
+            &:after{
+                top: -5px;
+                background: #333;
+                content: '';
+                display: block;
+                height: 100%;
+                position: absolute;
+                transition: all .2s ease-out;
+                width: 100%;
+            }
+        }
+    }
+
+    /* menu btn */
+
+    .menu-btn {
+        display: none;
+        &:checked{
+            ~{
+                .menu{
+                    max-height: 240px; 
+                }
+                .menu-icon {
+                    .nav-icon {
+                        background: transparent;
+                        &:before {
+                            transform: rotate(-45deg);
+                            top:0;
+                        }
+                        &:after {
+                            transform: rotate(45deg);
+                            top:0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
