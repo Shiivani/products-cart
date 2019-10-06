@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/products-cart/static/css/main.8ba600e9.chunk.css",
-    "main.js": "/products-cart/static/js/main.e6a8057d.chunk.js",
-    "main.js.map": "/products-cart/static/js/main.e6a8057d.chunk.js.map",
+    "main.css": "/products-cart/static/css/main.871f44c1.chunk.css",
+    "main.js": "/products-cart/static/js/main.80479eaf.chunk.js",
+    "main.js.map": "/products-cart/static/js/main.80479eaf.chunk.js.map",
     "runtime-main.js": "/products-cart/static/js/runtime-main.aae2718e.js",
     "runtime-main.js.map": "/products-cart/static/js/runtime-main.aae2718e.js.map",
     "static/css/2.0e2c2b5a.chunk.css": "/products-cart/static/css/2.0e2c2b5a.chunk.css",
     "static/js/2.b07266de.chunk.js": "/products-cart/static/js/2.b07266de.chunk.js",
     "static/js/2.b07266de.chunk.js.map": "/products-cart/static/js/2.b07266de.chunk.js.map",
     "index.html": "/products-cart/index.html",
-    "precache-manifest.552f7b138d3e938922e020a2621aae2d.js": "/products-cart/precache-manifest.552f7b138d3e938922e020a2621aae2d.js",
+    "precache-manifest.1165e9b64705ac691bb764c442e110e0.js": "/products-cart/precache-manifest.1165e9b64705ac691bb764c442e110e0.js",
     "service-worker.js": "/products-cart/service-worker.js",
     "static/css/2.0e2c2b5a.chunk.css.map": "/products-cart/static/css/2.0e2c2b5a.chunk.css.map",
-    "static/css/main.8ba600e9.chunk.css.map": "/products-cart/static/css/main.8ba600e9.chunk.css.map",
+    "static/css/main.871f44c1.chunk.css.map": "/products-cart/static/css/main.871f44c1.chunk.css.map",
     "static/media/font-awesome.min.css": "/products-cart/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/logo.svg": "/products-cart/static/media/logo.c7721a56.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.aae2718e.js",
     "static/css/2.0e2c2b5a.chunk.css",
     "static/js/2.b07266de.chunk.js",
-    "static/css/main.8ba600e9.chunk.css",
-    "static/js/main.e6a8057d.chunk.js"
+    "static/css/main.871f44c1.chunk.css",
+    "static/js/main.80479eaf.chunk.js"
   ]
 }
