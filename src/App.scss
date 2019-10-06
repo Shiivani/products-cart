@@ -214,8 +214,13 @@ body {
       h2{
         text-align:center;
         font-weight:700;
-        font-size:32px;
+        font-size:25px;
+        line-height: 30px;
         color:$purple;
+        @include breakpoint($screen-md) {
+          font-size:32px;
+          line-height:36px;
+        }
       }
     }
     .item-row {
